@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Password</title>
+	<link rel="icon" type="image/x-icon" href="Icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Megrim&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		
+			function checkpassword() {
+			var password = document.getElementById("passwordbox")
+			var passwordText = password.value;
+			if (passwordText == "ILoveSoccer") {
+				return true;
+			}
+			else{
+				alert("Access Denied")
+				return false;
+			}
+		}
+
+	</script>
+
+	<style type="text/css">
+		h1{
+			font-family:'Indie Flower', cursive;
+			color:blue;
+		}
+
+		p{
+			font-family: 'Indie Flower', cursive;
+			color:blue;
+		}
+
+		a{
+			font-family: 'Indie Flower', cursive;
+			color:blue;
+		}
+
+		section.box{
+			text-align: center;
+			margin:200px;
+		}
+
+		body{
+			background: url(Soccerfield1.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+	</style>
+</head>
+<body>
+
+	<section class="welcome box">
+		<p style="font-size: 50px;"> Welcome!</p>
+		<p> Please enter the password to enter the follwing website. </p>
+		<p> Password: <input id="passwordbox" type="password"> </p>
+		<a href="HenryPage1.html" onclick="return checkpassword();"> Enter </a>
+
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All about Henry</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Megrim&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		h1{
+			color: #522de0;
+			text-decoration: underline;
+			background: yellow;
+			text-align: center;
+			padding: 5px;
+			font-family: 'Megrim', cursive;
+		}
+
+		h3{
+			color: blue;
+			font-family: 'Megrim', cursive;
+		}
+
+		img{
+			border:5px solid blue;
+			width: 150px;
+		}
+
+		img.profilepicture{
+			border: 5px solid purple;
+			width: 100px;
+			margin: 0 auto;
+			display: block;
+			float: left;
+			margin-right:50px;
+			margin-left:50px;
+		}
+
+		img.favorites{
+			border: 5px solid blue;
+			padding: 5px;
+			margin: 5px;
+			width: 200px;
+		}
+
+		section.banner{
+			padding-top:50px;
+			padding-bottom:50px;
+			background: url("Horizon.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			text-align: center;
+			font-family: 'Megrim', cursive;
+		}
+
+		section.banner h2{
+			font-size: 60px;
+			color: lightblue;
+		}
+
+		section.banner p{
+			font-size: 50px;
+			color: blue;
+		}
+
+		section.aboutme{
+			background: url("Soccerfield1.jpg");
+			background-position: center;
+			background-size: cover;
+			color: blue;
+			overflow: hidden;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		section.favorites{
+			background: url(Coolbackground.jpg);
+			background position: center;
+			background-size:cover;
+			color: yellow;
+			overflow: hidden;
+			text-align: center;
+			list-style-position: inside;
+			font-family: 'Indie Flower', cursive;
+
+		}
+
+		section.box{
+			padding: 25px, 45px;
+		}
+
+		section.box p, section.box lh section.box li{
+			font-family: 'Indie Flower', cursive;
+		}
+
+		section.box lh{
+			color: lightblue;
+		}
+
+		.menu{
+
+			list-style: none;
+			padding:0;
+			margin:0;
+			text-align: center;
+			border-bottom:5px solid cyan;
+			border-top:5px solid cyan;
+			background: purple;
+			font-family: 'Megrim', cursive;
+			font-size:25px;
+			font-weight:bold;
+			text-transform: uppercase;
+			color: cyan;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width:100%;
+
+		}
+
+		.menu li{
+			display: inline-block;
+			padding:20px 35px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<ul class="menu">
+
+		<li><a href="#about">About Me</a>
+		<li><a href="#favorites">Favorites</a>
+		<li><a href="HenryPage2.html#contactme">Contact Me</a>
+		<li><a href="HenryPage3.html#videogames">Video Games</a>
+		<li><a href="https://www.google.com/" target="blank">Search</a>
+
+	</ul>
+
+	<section class="banner">
+		<h2>Welcome to my website!</h2>
+		<p> Do you like soccer? </p>
+	</section>
+
+	<section id = "about" class="aboutme box">
+		<h1>About Me!</h1>
+		<img class= "profilepicture" src="images\soccerball.jfif">
+		<p>
+			Hi, my name is Henry, and welcome to my website! My hobbies are playing sports such as <b> soccer </b> , and occasionally football. <br> Additionally, I like reading and my favorite series are Wings of Fire and Spy School. <br> My best subject is math, although I don't enjoy it as much as Physical Education.
+		</p>
+		<h3> <u> Why do I like soccer? </u> </h3>
+		<p>
+			I like playing soccer because it promotes teamwork and a large portion of my friends play soccer. <br> It also keeps me in shape, because soccer is a very athletic sport that requires speed, power, endurance, and more. <br> Finally, soccer is overall a enjoyable sport that I play in my free time.
+		</p>
+	</section>
+
+	<section id= "favorites" class="favorites box">
+	<h1> My favorite soccer players </h1>
+	<ul>
+		<lh>My favorite soccer players </lh>
+		<li>Haaland
+		<li>Kane
+		<li>Son
+		<li>Messi
+		<li>Mbappe
+	</ul>
+
+	<p>The most valuable soccer players ranked</p>
+
+	<ol type="1">
+		<li>Mbappe
+		<li>Vicious Junior
+		<li>Erling Haaland
+		<li>Pedri
+		<li>Jude Bellingham
+	</ol>
+
+	<img class="favorites" src="images\Haaland.webp">
+	<img class="favorites" src="images\Kane.jpeg">
+	<img class="favorites" src="images\Mbappe.jpg">
+	<img class="favorites" src="images\Messi.webp">
+	<img class="favorites" src="images\Ronaldo.jpg">
+
+	</section>
+	
+</body>
+</html>
